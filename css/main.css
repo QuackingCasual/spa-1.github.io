@@ -1,0 +1,509 @@
+/*..........................................
+ALL
+..........................................*/
+
+html, body {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    min-width: 280px;
+}
+
+.img {
+    display: inline-block;
+}
+
+a {
+    transition: 0.2s ease-out;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*..........................................
+BASE
+..........................................*/
+
+.content {
+    width: 100%;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 40px;
+    background-color: rgba(15, 94, 184, 0.106);
+}
+
+.content__block {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    border-radius: 40px;
+    background-color: rgba(15, 94, 184, 0.106);
+}
+
+.content__footer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.content__footer {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.col-4 {
+    width: 20%;
+    margin-left: 6.5%;
+    margin-right: 7.25%;
+    float: left;
+}
+
+.col-4:last-child {
+    margin-right: 0px;
+}
+
+.col-4__footer {
+    width: 15%;
+    margin-right: 20px;
+    margin-left: 80px;
+    float: left;
+}
+
+.col-4__footer-1 {
+    width: 20%;
+    margin-right: 20px;
+    margin-left: 0px;
+    float: left;
+}
+
+.icon__footer {
+    width: 5%;
+}
+
+.text {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/*..........................................
+HEADER
+..........................................*/
+
+.header {
+    background: #343c4e;
+    background: url("../img/bg/back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 102vh;
+    min-height: 400px;
+
+    width: 100%;
+    
+    color: #FFF;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+
+    border-radius: 0px 0px 20px 20px;
+    overflow: hidden;
+}
+
+
+.header__title {
+    font-size: 55px;
+    line-height: 42px;
+    margin-bottom: 30pt;
+    font-family: 'Merriweather', serif;
+    margin-top: -80px;
+}
+
+.header__slogan {
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.header__arrow {
+    font-size: 48px;
+    width: 60px;
+    height: 50px;
+    margin-left: -30px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
+
+
+/*..........................................
+SECTION
+    
+    overflow:hidden;
+
+    height: 800px;
+    min-height: 600px;
+
+    margin-top: 30px;
+    margin-bottom: 40px;
+..........................................*/
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-item {
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+
+    -webkit-text-stroke: 1px #000000; /* Ширина и цвет обводки */
+}
+
+.section-item__img {
+    margin-bottom: 17px;
+}
+
+.section-item__img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-item__title {
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    color:#0843b2;
+}
+
+.section-item__title-1 {
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.section-item__title a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #FFF;
+}
+
+.section-item__title a:hover {
+    color: #0052C2;
+    border-color: rgba(0, 82, 194, 0.3);
+}
+
+.section-item__title p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+
+.section-single-page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.section-single-page img {
+    margin-bottom: 50px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.rounded-img {
+    border-radius: 40px; /* Установите желаемый радиус закругления */
+}
+
+.button-back {
+    font-weight: 700;
+    text-decoration: none;
+    color: #0052C2;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+        
+    display: inline-block;
+    
+    border-width: 2px;
+    border-color: #0052C2;
+    border-style: solid;
+
+    border-radius: 50px;
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    
+    margin-bottom: 23px;
+    
+    transition: 0.2s ease-out;
+}
+
+.button-back:hover {
+    color: #FFF;
+    background-color: #0052C2;
+}
+
+
+/*..........................................
+    FOOTER
+..........................................*/
+
+.footer {
+    overflow: hidden;
+    background-color: #061634;
+    color: #6479a2;
+    padding-top: 90px;
+    padding-bottom: 80px;
+
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden; 
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+p.footer__name {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: normal;
+    font-family: 'Merriweather', serif;
+}
+
+.footer__social {
+    color: #FFF;
+}
+
+P.footer__social-icons {
+    color: #FFF;
+    font-size: 32px;
+}
+
+P.footer__social-icons a {
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+
+P.footer__social-icons-1 a {
+    color: #FFF;
+    font-size: 32px;
+    margin-right: 0px;
+    display: inline-block;
+}
+
+P.footer__social-icons a:hover {
+    color: #236ce8;
+    /* ffe400 */
+}
+
+.button {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+        
+    display: inline-block;
+    
+    border-width: 2px;
+    border-color: #FFF;
+    border-style: solid;
+    border-radius: 50px;
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    
+    margin-bottom: 23px;
+    
+    transition: 0.2s ease-out;
+}
+
+.button:hover {
+    color: #061634;
+    background-color: #FFF;
+}
+
+
+/*..........................................
+    MEDIA
+
+При ширине экрана в 1160px и менее - будет выполнен наш медиа запрос
+
+реальная ширина = width: 100%; + border = 0 + padding = 15 + 15
+..........................................*/
+
+@media screen and (max-width: 1600px) {
+
+    .content {
+        width: 100%; 
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .col-4 {
+        width: 100%;
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .content__footer {
+        width: 100%; /* Set width to 100% for stacking vertically */
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Center the columns horizontally */
+    }
+
+    .col-4__footer {
+        width: 20%;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px; /* Adjust the left margin as needed */
+    }
+
+    .col-4__footer p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center; /* Center the text within each column */
+        white-space: nowrap;
+    }
+
+    .col-4__footer .button {
+        width: 100%;
+    }
+
+
+    .header {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        width: 100%;
+    }
+    
+    .header__title {
+        font-size: 30px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+    
+    .header_slogan {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    
+    .section {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    
+    .title {
+        font-size: 36px;
+    }
+    
+    .footer {
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .col-4__footer {
+        width: 30%; /* Adjust the width for smaller screens */
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 25px;
+    }
+
+    .col-4__footer .button {
+        width: 100%; /* Set the button width to 100% for smaller screens */
+        overflow: hidden; /* Prevent text overflow */
+        white-space: nowrap; /* Prevent text from wrapping */
+    }
+
+    .col-4__footer p {
+        width: 100%;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .button-back {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px; /* Подстройте отступ для лучшего интервала */
+    }
+
+    .col-4__footer {
+        width: 100%; /* Set width to 100% for stacking vertically */
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .col-4__footer .button {
+        width: 100%; /* Set the button width to 100% for the smallest screens */
+    }
+
+    .col-4__footer .button {
+        width: 100%; /* Set the button width to 100% for the smallest screens */
+        overflow: hidden; /* Prevent text overflow */
+        white-space: nowrap; /* Prevent text from wrapping */
+    }
+
+    .col-4__footer p {
+        text-align: center;
+        white-space: nowrap;
+    }
+}
